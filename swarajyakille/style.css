@@ -1,0 +1,490 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;  
+    /* font-family: 'Poppins',sans-serif; */
+   }
+  
+   body {
+    background: #ffffff;
+    color: #fff;
+    
+   }
+   #header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background_image.jpeg.jpg);
+    background-size: cover;
+    background-position: center;
+  
+   }
+  
+   
+   .container {
+    padding: 10px 10%;
+    font-family: 'Times New Roman', serif;
+    
+    
+
+  
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(20px);
+    border-radius: 10px;  
+   
+    
+    
+    
+  }
+  .logo{
+    
+    width: 140px;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+  }
+  
+  nav ul li a {
+    color: rgb(65, 35, 1);
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+  
+  }
+  nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0s;
+  }
+  
+  nav ul li a:hover::after{
+    width: 100%;
+  
+  }
+  
+  .main{
+    margin-top: 8%;
+    font-size: 30px;
+    color: #000000;
+    width: 50%;
+  
+  }
+  .main h2{
+    font-size: 50px;
+    margin-top: 5px;
+    color: #891a01;
+  }
+
+  <!-----------searchbar------->
+  .search-container {    
+    display: flex;
+    max-width: 300px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #56acfc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius:0 20px 20px 0;
+  }
+
+  <!-----------------about info page close ----------------------->
+
+
+  #about{
+    padding: 100px 100vh;
+    
+   
+  }
+  
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 80vw;
+     
+      }
+  
+  .image1{
+    flex-basis: 35%;  
+    
+  
+  }
+  
+  .image1 img{
+    width: 100%;
+    
+    border-radius: 15px;
+  
+  }
+  
+  .information1{
+    flex-basis: 60%;
+  }
+  
+  .maharaj{
+    font-size: 60px;
+    font-weight: 600;
+    color: orange;
+  }
+
+  .para{
+    margin-top: 10%;
+    font-size: 30px;
+    color: #4e0000;
+  }
+  
+  .para h3{
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  <!-----------------about info page close ----------------------->
+
+
+  #fort1{
+    padding: 80px 0;
+   
+   
+  }
+  
+  .row2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    height: 100vh;
+    width: 80vw;
+    
+    
+    
+  }
+  
+  .image2{
+    flex-basis: 35%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+    
+  
+  }
+  
+  .image2 img{
+    width: 100%;
+    margin-left: 10%;
+
+    border-radius: 15px;
+  
+  }
+  
+  .information2{
+    flex-basis: 60%;
+    
+    
+  }
+  
+  .raigad{
+    
+    font-size: 60px;
+    font-weight: 600;
+    color: orange;
+  }
+
+  .para2{
+    margin-top: 5%;
+    font-size: 25px;
+    color: #000000;
+  }
+  
+  .para2 h3{
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  <!-----------------about murud jangira ----------------------->
+
+  #fort2{
+    padding: 80px 0;
+    
+   
+  }
+  
+  .row3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    height: 100vh;
+    width: 80vw;
+    
+    
+  }
+  
+  .image3{
+    flex-basis: 35%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+    
+  
+  }
+  
+  .image3 img{
+    width: 100%;
+    margin-left: 10%;
+
+    border-radius: 15px;
+  
+  }
+  
+  .information3{
+    flex-basis: 60%;
+    
+  }
+  
+  .Murud{
+    font-size: 60px;
+    font-weight: 600;
+    color: orange;
+  }
+
+  .para3{
+    margin-top: 5%;
+    font-size: 25px;
+    color: #000000;
+    
+  }
+  
+  .para3 h3{
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  <!-----------------about kolaba ----------------------->
+
+  #fort3{
+    padding: 80px 0;
+   
+  }  
+  .row4{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;    
+    height: 100vh;
+    width: 80vw; 
+    
+      }
+  
+  .image4{
+    flex-basis: 35%;        
+    margin-top: 40px;
+    margin-bottom: 40px; 
+  }
+  
+  .image4 img{
+    width: 100%;
+    margin-left: 10%;
+
+    border-radius: 15px;
+  
+  }
+  
+  .information4{
+    flex-basis: 60%;
+  }
+  
+  .Kolaba{
+    font-size: 60px;
+    font-weight: 600;
+    color: orange
+  }
+
+  .para4{
+    margin-top: 5%;
+    font-size: 25px;
+    color: #000000;
+  }
+  
+  .para4 h3{
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  <!-----------------about kolaba ----------------------->
+
+  #fort4{
+    padding: 80px 0;
+   
+  }  
+  .row5{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;     
+    height: 100vh;
+    width: 80vw;
+    
+      }
+  
+  .image5{
+    flex-basis: 35%;    
+    margin-top: 40px;
+    margin-bottom: 40px;     
+  }
+  
+  .image5 img{
+    width: 100%;
+    margin-left: 10%;
+
+    border-radius: 15px;
+  
+  }
+  
+  .information5{
+    flex-basis: 60%;
+  }
+  
+  .Rajgad{
+    font-size: 60px;
+    font-weight: 600;
+    color: orange
+  }
+
+  .para5{
+    margin-top: 5%;
+    font-size: 25px;
+    color: #000000;
+    padding-bottom: 15px;
+  }
+  
+  .para5 h3{
+    font-size: 50px;
+    margin-top: 20px;
+    
+  }
+
+  <!-----------------about kolaba ----------------------->
+
+  #fort5{
+    padding: 80px 0;
+   
+  }  
+  .row6{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;     
+    height: 100vh;
+    width: 80vw;    
+      }
+  
+  .image6{
+    flex-basis: 35%;    
+    margin-top: 40px;
+    margin-bottom: 40px;     
+  }
+  
+  .image6 img{
+    width: 100%;
+    margin-left: 10%;
+
+    border-radius: 15px;
+  
+  }
+  
+  .information6{
+    flex-basis: 60%;
+  }
+  
+  .Shivneri{
+    font-size: 60px;
+    font-weight: 600;
+    color: orange
+  }
+
+  .para6{
+    margin-top: 5%;
+    font-size: 25px;
+    color: #000000;
+    padding-bottom: 15px;
+  }
+  
+  .para6 h3{
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  <!-----------------about pratapgad ----------------------->
+
+  #fort6{
+    padding: 80px 0;
+   
+  }  
+  .row7{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;  
+    height: 100vh;
+    width: 80vw;    
+      }
+  
+  .image7{
+    flex-basis: 35%;    
+    margin-top: 40px;
+    margin-bottom: 40px;     
+  }
+  
+  .image7 img{
+    width: 100%;
+    margin-left: 10%;
+
+    border-radius: 15px;
+  
+  }
+  
+  .information7{
+    flex-basis: 60%;
+  }
+  
+  .Pratapgad{
+    font-size: 60px;
+    font-weight: 600;
+    color: orange
+  }
+
+  .para7{
+    margin-top: 5%;
+    font-size: 25px;
+    color: #000000;
+    padding-bottom: 15px;
+  }
+  
+  .para7 h3{
+    font-size: 50px;
+    margin-top: 20px;
+  }
